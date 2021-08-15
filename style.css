@@ -1,0 +1,28 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    /*gap: 4px;*/
+    justify-items: center;
+}  
+
+
+.input {
+    font-size:30px;
+    height:40px;
+    size:100%
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+}
+  
+#flex-container > .flex-item {
+    flex: auto;
+}
+  
+#flex-container > .raw-item {
+    width: 5rem;
+}
